@@ -1,14 +1,10 @@
 import torch as T
 import torch.nn as nn
 import torch.nn.functional as F
-from torch.autograd import Variable
-import matplotlib.pyplot as plt
 import numpy as np
-import math
 import random
 import os
 import gym
-from IPython import display 
 from torch.distributions import Categorical # takes prob output from NN, maps to distribution, so we can do sampling
 
 
